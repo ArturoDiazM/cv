@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Arturo's Personal Site</title>
+</head>
+<!--Sector de codigo HTML-->
+
+<body>
+    <img id="img1" width="200px" src="circle-cropped.png" alt="Foto de perfil">
+    <h1>Arturo D&iacute;az</h1>
+    <p>Ingeniero Sistemas Computacionales</p>
+    <hr>
+    <h3>Educaci&oacute;n</h3>
+    <ul>
+        <li>Tecnico de Mantenimiento Automotriz | CBTis97</li>
+        <li>Ingeneria de Sistemas Computacionales | Instituto Tecnol&oacute;gico de Saltillo</li>
+    </ul>
+    <hr>
+    <h3>Ingenieria de sistemas | Conocimientos en:</h3>
+    <ul>
+        <li>Html</li>
+        <li>Css</li>
+        <li>Javascript</li>
+        <li>Bootstrap</li>
+    </ul>
+    <p id="demo">Me gusta darle solucion a un problema desarrollando aplicaciones web y moviles para este problema.
+    </p>
+    <button onclick=location.href='gustos.html'>Gustos</button>
+    <!-- Sector del codigo javascript -->
+    <script>
+        /*Linea que cambia el contenido de el elemento seleccionado*/
+        document.getElementById("").innerText = "Hola, funciono";
+        /*Funcion que cambia la imagen de inicio, basandose en un boton*/
+        function imgChan(a) {
+            if (a == 1) {
+                document.getElementById('img1').src = "miku.jpg";
+            }
+            if (a == 2) {
+                document.getElementById('img1').src = "circle-cropped.png";
+            }
+        }
+    </script>
+</body>
+
+</html>
