@@ -3,44 +3,22 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <title>Mi sitio personal</title>
 </head>
-<!--Sector de codigo HTML-->
 
 <body>
+    <div class="container">
+        <!--Imagen de perfil-->
     <img id="img1" width="200px" src="circle-cropped.png" alt="Foto de perfil">
+    <!-- Nombre -->
     <h1>Arturo D&iacute;az</h1>
-    <p>Ingeniero en Sistemas Computacionales.</p>
-    <hr>
-    <h3>Educaci&oacute;n</h3>
-    <ul>
-        <li><b>2016-2020</b> <i>Instituto Tecnol&oacute;gico de Saltillo</i> Ingeniero en Sistemas Computacionales.</li>
-    </ul>
-    <hr>
-    <h3>Ingenieria de sistemas | Conocimientos en:</h3>
-    <ul>
-        <li>Html</li>
-        <li>Css</li>
-        <li>Javascript</li>
-        <li>Bootstrap</li>
-    </ul>
-    <p id="demo">Me gusta darle solucion a un problema desarrollando aplicaciones web y moviles para este problema.
-    </p>
-    <button onclick=location.href='gustos.html'>Gustos</button>
-    <!-- Sector del codigo javascript -->
-    <script>
-        /*Linea que cambia el contenido de el elemento seleccionado*/
-        document.getElementById("").innerText = "Hola, funciono";
-        /*Funcion que cambia la imagen de inicio, basandose en un boton*/
-        function imgChan(a) {
-            if (a == 1) {
-                document.getElementById('img1').src = "miku.jpg";
-            }
-            if (a == 2) {
-                document.getElementById('img1').src = "circle-cropped.png";
-            }
-        }
-    </script>
+    <!--Descripcion-->
+    <p>Ingeniero en Sistemas</p>
+    </div>
 </body>
 
 </html>
