@@ -1,5 +1,9 @@
 body {
-  background-image: url("../imagenes/back-gnd.jpg");
+  background-image: url("../imagenes/pexels-ivy-son-3490393.jpg");
   background-size: cover;
   background-position: bottom;
+}
+img.logo {
+  height: 30px;
+  width: 60px;
 }
